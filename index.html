@@ -1,5 +1,6 @@
 <html lang="de">
 <head>
+  <!--V1.323-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Garten- und Schneeservice Grünwald bietet Winterdienste und Gartenarbeiten wie Schneeräumen, Grünwald, Schneeräumen Grünwald, Garten-und Schneeservice Grünwald, Rasenmähen und Laubkehren. Preis nach Absprache.">
@@ -71,6 +72,36 @@
     }
     footer p {
       margin: 0;
+
+      form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
     }
   </style>
 </head>
@@ -79,9 +110,32 @@
     <h1>Garten- und Schneeservice Grünwald</h1>
   </header>
 
+  <style>
+    .kontakt-container {
+      text-align: center;
+      margin: 20px auto;
+      max-width: 800px;
+    }
+    
+    .kontakt-container h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    
+    .kontakt-container p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    
+    .kontakt-container iframe {
+      width: 100%;
+      border: none;
+    }
+    </style>
+
   <nav>
     <a href="#ueber-uns">Über uns</a>
-    <a href="#winter">Winterdienst</a>
+    <a href="#winter">Winterservice</a>
     <a href="#sommer">Gartenarbeiten</a>
     <a href="#preise">Preise</a>
     <a href="#kontakt">Kontakt</a>
@@ -100,14 +154,12 @@
   <section id="winter">
     <img src="bilder/schnee.jpg" alt="Schnee schieben">
     <div class="content">
-      <h2>Winterdienst</h2>
+      <h2>Winterservice</h2>
       <p>Im Winter kümmern wir uns um Ihre Sicherheit. Unsere Dienstleistungen umfassen:</p>
       <ul>
         <li>Einfahrten frei räumen</li>
         <li>Gewege von Schnee befreien</li>
-	<li>Wege streuen</li>
       </ul>
-	<p>Dies bieten wir außerdem als Dauerauftrag an.</p>
     </div>
   </section>
 
@@ -139,10 +191,23 @@
       <h2>Kontakt</h2>
       <p>Haben Sie Fragen oder möchten Sie einen Termin ausmachen? Schreiben Sie uns eine E-Mail oder rufen Sie an:</p>
       <p>E-Mail: <a href="mailto:gartenservice.gruenwald@gmail.com">gartenservice.gruenwald@gmail.com</a></p>
-	  <p>Telefon: <a href="tel:+491736066905">+49 173 6066905</a></p>
+	  <p>Telefon: <a href="tel:+491234567890">+49 173 6066905</a></p>
     </div>
   </section>
 
+  <div class="kontakt-container">
+    <h2>Kontakt</h2>
+    <p>Füllen Sie das untenstehende Formular aus, um uns zu kontaktieren:</p>
+    <iframe
+      src="https://forms.gle/7qN9s3Gx29AEJg1N9"
+      width="100%"
+      height="600"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      allowfullscreen
+    >Lade Formular...</iframe>
+  </div>
 
   <footer>
     <p>&copy; 2024 Garten- und Schneeservice. Alle Rechte vorbehalten.</p>
@@ -150,3 +215,17 @@
 </body>
 
 </html>
+<!--https://forms.gle/7qN9s3Gx29AEJg1N9-->
+<!--<section id="kontakt">
+    <h2>Kontakt</h2>
+  <p>Füllen Sie das untenstehende Formular aus, um uns zu kontaktieren:</p>
+  <iframe
+    src="https://docs.google.com/forms/d/e/YOUR_FORM_URL/viewform?embedded=true"
+    width="100%"
+    height="600"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    allowfullscreen
+  >Lade Formular...</iframe>
+  </section>-->
