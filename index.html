@@ -1,6 +1,6 @@
 <html lang="de">
 <head>
-  <!--V1.323-->
+  <!--V1.5-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Garten- und Schneeservice Grünwald bietet Winterdienste und Gartenarbeiten wie Schneeräumen, Grünwald, Schneeräumen Grünwald, Garten-und Schneeräumservice Grünwald, Rasenmähen und Laubkehren. Preis nach Absprache.">
@@ -8,7 +8,7 @@
   <meta name="author" content="Max">
   <title>Garten- und Schneeservice Grünwald</title>
   <style>
-	  <meta name="google-site-verification" content="K00tpFGckAfGtYYB1U6Bgd8ZQIajCWi5lOkey8n1Abo" />
+    <meta name="google-site-verification" content="K00tpFGckAfGtYYB1U6Bgd8ZQIajCWi5lOkey8n1Abo" />
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -21,13 +21,14 @@
       color: white;
       text-align: center;
       padding: 40px 10px;
+      width: 100%;
     }
     header h1 {
       margin: 0;
       font-size: 3em; 
     }
     nav {
-      background: #388e3c; /
+      background: #388e3c;
       padding: 15px;
       text-align: center;
       width: 100%;
@@ -63,6 +64,7 @@
     }
     section:nth-child(even) {
       flex-direction: row-reverse; 
+    }
     footer {
       text-align: center;
       padding: 20px;
@@ -131,6 +133,30 @@ button:hover {
       width: 100%;
       border: none;
     }
+
+    @media only screen and (max-width: 768px) {
+  body {
+    font-size: 16px; 
+    line-height: 1.5;
+    padding: 10px;
+  }
+
+  header, footer {
+    text-align: center; 
+
+  .container {
+    width: 100%; 
+    padding: 0 10px; 
+
+  .kontakt-formular iframe {
+    width: 100%; 
+    height: auto;
+  }
+
+  nav ul {
+    flex-direction: column; 
+    gap: 10px;
+}
     </style>
 
   <nav>
@@ -160,7 +186,6 @@ button:hover {
         <li>Einfahrten frei räumen</li>
         <li>Gehwege von Schnee befreien</li>
       </ul>
-      <p>Dies bieten wir als Dauerdienst an.</p>
     </div>
   </section>
 
@@ -210,13 +235,9 @@ button:hover {
     >Lade Formular...</iframe>
   </div>
 
-  <footer>
-    <p>&copy; 2024 Garten- und Schneeservice. Alle Rechte vorbehalten.</p>
-  </footer>
-</body>
-	
+
 <footer>
-  <p>&copy; 2024 Garten- und Schneeservice Grünwald</p>
+  <p>&copy; 2024 Garten- und Schneeservice Grünwald. Alle Rechte vorbehalten.</p>
   <p><a href="impressum.html" style="color: white; text-decoration: underline;">Impressum</a></p>
 </footer>
 
